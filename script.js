@@ -2,7 +2,7 @@ function calculateMinCost() {
   //your code here
 
 	
-    var inputData=document.querySelector("#rope-lengths").value;
+    var inputData=document.querySelector("rope-lengths").value;
 	var inputArr=inputData.split(",");
 
 	// change string into number
