@@ -2,7 +2,7 @@ function calculateMinCost() {
   //your code here
 
 	
-    var inputData=document.getElementById("rope-lengths").value;
+    var inputData=document.getElementById('rope-lengths').value;
 	var inputArr=inputData.split(",");
 
 	// change string into number
@@ -23,5 +23,5 @@ function calculateMinCost() {
 	    inputArr.sort(function (a,b) {return a-b;})	
     }
 
-	document.getElementByIdr("result").textContent=cost;
+	document.getElementById('result').textContent=cost;
 }  
